@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9F5FEA1AACDCD80020DC11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F5FE91AACDCD80020DC11 /* main.m */; };
+		DE9F5FED1AACDCD80020DC11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F5FEC1AACDCD80020DC11 /* AppDelegate.m */; };
+		DE9F5FF01AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE9F5FEE1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld */; };
+		DE9F5FF31AACDCD90020DC11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F5FF21AACDCD90020DC11 /* ViewController.m */; };
+		DE9F5FF61AACDCD90020DC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9F5FF41AACDCD90020DC11 /* Main.storyboard */; };
+		DE9F5FF81AACDCD90020DC11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9F5FF71AACDCD90020DC11 /* Images.xcassets */; };
+		DE9F5FFB1AACDCD90020DC11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9F5FF91AACDCD90020DC11 /* LaunchScreen.xib */; };
+		DE9F60071AACDCD90020DC11 /* TrafficLawsKazakhstanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60061AACDCD90020DC11 /* TrafficLawsKazakhstanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE9F60011AACDCD90020DC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9F5FDC1AACDCD80020DC11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9F5FE31AACDCD80020DC11;
+			remoteInfo = TrafficLawsKazakhstan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE9F5FE41AACDCD80020DC11 /* TrafficLawsKazakhstan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLawsKazakhstan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9F5FE81AACDCD80020DC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9F5FE91AACDCD80020DC11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE9F5FEB1AACDCD80020DC11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE9F5FEC1AACDCD80020DC11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE9F5FEF1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrafficLawsKazakhstan.xcdatamodel; sourceTree = "<group>"; };
+		DE9F5FF11AACDCD80020DC11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE9F5FF21AACDCD90020DC11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE9F5FF51AACDCD90020DC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE9F5FF71AACDCD90020DC11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE9F5FFA1AACDCD90020DC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE9F60001AACDCD90020DC11 /* TrafficLawsKazakhstanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLawsKazakhstanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9F60051AACDCD90020DC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9F60061AACDCD90020DC11 /* TrafficLawsKazakhstanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficLawsKazakhstanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9F5FE11AACDCD80020DC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9F5FFD1AACDCD90020DC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE9F5FDB1AACDCD80020DC11 = {
+			isa = PBXGroup;
+			children = (
+				DE9F5FE61AACDCD80020DC11 /* TrafficLawsKazakhstan */,
+				DE9F60031AACDCD90020DC11 /* TrafficLawsKazakhstanTests */,
+				DE9F5FE51AACDCD80020DC11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9F5FE51AACDCD80020DC11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F5FE41AACDCD80020DC11 /* TrafficLawsKazakhstan.app */,
+				DE9F60001AACDCD90020DC11 /* TrafficLawsKazakhstanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9F5FE61AACDCD80020DC11 /* TrafficLawsKazakhstan */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F5FEB1AACDCD80020DC11 /* AppDelegate.h */,
+				DE9F5FEC1AACDCD80020DC11 /* AppDelegate.m */,
+				DE9F5FF11AACDCD80020DC11 /* ViewController.h */,
+				DE9F5FF21AACDCD90020DC11 /* ViewController.m */,
+				DE9F5FF41AACDCD90020DC11 /* Main.storyboard */,
+				DE9F5FF71AACDCD90020DC11 /* Images.xcassets */,
+				DE9F5FF91AACDCD90020DC11 /* LaunchScreen.xib */,
+				DE9F5FEE1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld */,
+				DE9F5FE71AACDCD80020DC11 /* Supporting Files */,
+			);
+			path = TrafficLawsKazakhstan;
+			sourceTree = "<group>";
+		};
+		DE9F5FE71AACDCD80020DC11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F5FE81AACDCD80020DC11 /* Info.plist */,
+				DE9F5FE91AACDCD80020DC11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE9F60031AACDCD90020DC11 /* TrafficLawsKazakhstanTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F60061AACDCD90020DC11 /* TrafficLawsKazakhstanTests.m */,
+				DE9F60041AACDCD90020DC11 /* Supporting Files */,
+			);
+			path = TrafficLawsKazakhstanTests;
+			sourceTree = "<group>";
+		};
+		DE9F60041AACDCD90020DC11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F60051AACDCD90020DC11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9F5FE31AACDCD80020DC11 /* TrafficLawsKazakhstan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9F600A1AACDCD90020DC11 /* Build configuration list for PBXNativeTarget "TrafficLawsKazakhstan" */;
+			buildPhases = (
+				DE9F5FE01AACDCD80020DC11 /* Sources */,
+				DE9F5FE11AACDCD80020DC11 /* Frameworks */,
+				DE9F5FE21AACDCD80020DC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficLawsKazakhstan;
+			productName = TrafficLawsKazakhstan;
+			productReference = DE9F5FE41AACDCD80020DC11 /* TrafficLawsKazakhstan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE9F5FFF1AACDCD90020DC11 /* TrafficLawsKazakhstanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9F600D1AACDCD90020DC11 /* Build configuration list for PBXNativeTarget "TrafficLawsKazakhstanTests" */;
+			buildPhases = (
+				DE9F5FFC1AACDCD90020DC11 /* Sources */,
+				DE9F5FFD1AACDCD90020DC11 /* Frameworks */,
+				DE9F5FFE1AACDCD90020DC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9F60021AACDCD90020DC11 /* PBXTargetDependency */,
+			);
+			name = TrafficLawsKazakhstanTests;
+			productName = TrafficLawsKazakhstanTests;
+			productReference = DE9F60001AACDCD90020DC11 /* TrafficLawsKazakhstanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9F5FDC1AACDCD80020DC11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nord Point";
+				TargetAttributes = {
+					DE9F5FE31AACDCD80020DC11 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DE9F5FFF1AACDCD90020DC11 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DE9F5FE31AACDCD80020DC11;
+					};
+				};
+			};
+			buildConfigurationList = DE9F5FDF1AACDCD80020DC11 /* Build configuration list for PBXProject "TrafficLawsKazakhstan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE9F5FDB1AACDCD80020DC11;
+			productRefGroup = DE9F5FE51AACDCD80020DC11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9F5FE31AACDCD80020DC11 /* TrafficLawsKazakhstan */,
+				DE9F5FFF1AACDCD90020DC11 /* TrafficLawsKazakhstanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9F5FE21AACDCD80020DC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9F5FF61AACDCD90020DC11 /* Main.storyboard in Resources */,
+				DE9F5FFB1AACDCD90020DC11 /* LaunchScreen.xib in Resources */,
+				DE9F5FF81AACDCD90020DC11 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9F5FFE1AACDCD90020DC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9F5FE01AACDCD80020DC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9F5FED1AACDCD80020DC11 /* AppDelegate.m in Sources */,
+				DE9F5FF01AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld in Sources */,
+				DE9F5FF31AACDCD90020DC11 /* ViewController.m in Sources */,
+				DE9F5FEA1AACDCD80020DC11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9F5FFC1AACDCD90020DC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9F60071AACDCD90020DC11 /* TrafficLawsKazakhstanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE9F60021AACDCD90020DC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE9F5FE31AACDCD80020DC11 /* TrafficLawsKazakhstan */;
+			targetProxy = DE9F60011AACDCD90020DC11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE9F5FF41AACDCD90020DC11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9F5FF51AACDCD90020DC11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE9F5FF91AACDCD90020DC11 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9F5FFA1AACDCD90020DC11 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE9F60081AACDCD90020DC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE9F60091AACDCD90020DC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE9F600B1AACDCD90020DC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrafficLawsKazakhstan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE9F600C1AACDCD90020DC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrafficLawsKazakhstan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE9F600E1AACDCD90020DC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrafficLawsKazakhstanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficLawsKazakhstan.app/TrafficLawsKazakhstan";
+			};
+			name = Debug;
+		};
+		DE9F600F1AACDCD90020DC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrafficLawsKazakhstanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficLawsKazakhstan.app/TrafficLawsKazakhstan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE9F5FDF1AACDCD80020DC11 /* Build configuration list for PBXProject "TrafficLawsKazakhstan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9F60081AACDCD90020DC11 /* Debug */,
+				DE9F60091AACDCD90020DC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9F600A1AACDCD90020DC11 /* Build configuration list for PBXNativeTarget "TrafficLawsKazakhstan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9F600B1AACDCD90020DC11 /* Debug */,
+				DE9F600C1AACDCD90020DC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE9F600D1AACDCD90020DC11 /* Build configuration list for PBXNativeTarget "TrafficLawsKazakhstanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9F600E1AACDCD90020DC11 /* Debug */,
+				DE9F600F1AACDCD90020DC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE9F5FEE1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE9F5FEF1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodel */,
+			);
+			currentVersion = DE9F5FEF1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodel */;
+			path = TrafficLawsKazakhstan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE9F5FDC1AACDCD80020DC11 /* Project object */;
+}
