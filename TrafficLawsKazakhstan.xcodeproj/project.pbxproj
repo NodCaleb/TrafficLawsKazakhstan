@@ -10,11 +10,26 @@
 		DE9F5FEA1AACDCD80020DC11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F5FE91AACDCD80020DC11 /* main.m */; };
 		DE9F5FED1AACDCD80020DC11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F5FEC1AACDCD80020DC11 /* AppDelegate.m */; };
 		DE9F5FF01AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE9F5FEE1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld */; };
-		DE9F5FF31AACDCD90020DC11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F5FF21AACDCD90020DC11 /* ViewController.m */; };
 		DE9F5FF61AACDCD90020DC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9F5FF41AACDCD90020DC11 /* Main.storyboard */; };
 		DE9F5FF81AACDCD90020DC11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9F5FF71AACDCD90020DC11 /* Images.xcassets */; };
 		DE9F5FFB1AACDCD90020DC11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9F5FF91AACDCD90020DC11 /* LaunchScreen.xib */; };
 		DE9F60071AACDCD90020DC11 /* TrafficLawsKazakhstanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60061AACDCD90020DC11 /* TrafficLawsKazakhstanTests.m */; };
+		DE9F60201AACDD550020DC11 /* AMSlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60121AACDD550020DC11 /* AMSlideMenuContentSegue.m */; };
+		DE9F60211AACDD550020DC11 /* AMSlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60141AACDD550020DC11 /* AMSlideMenuLeftMenuSegue.m */; };
+		DE9F60221AACDD550020DC11 /* AMSlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60161AACDD550020DC11 /* AMSlideMenuLeftTableViewController.m */; };
+		DE9F60231AACDD550020DC11 /* AMSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60181AACDD550020DC11 /* AMSlideMenuMainViewController.m */; };
+		DE9F60241AACDD550020DC11 /* AMSlideMenuRightMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F601B1AACDD550020DC11 /* AMSlideMenuRightMenuSegue.m */; };
+		DE9F60251AACDD550020DC11 /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F601D1AACDD550020DC11 /* AMSlideMenuRightTableViewController.m */; };
+		DE9F60261AACDD550020DC11 /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F601F1AACDD550020DC11 /* UIViewController+AMSlideMenu.m */; };
+		DE9F602E1AACDD9A0020DC11 /* LeftTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60281AACDD9A0020DC11 /* LeftTableVC.m */; };
+		DE9F602F1AACDD9A0020DC11 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F602A1AACDD9A0020DC11 /* MainVC.m */; };
+		DE9F60301AACDD9A0020DC11 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9F602B1AACDD9A0020DC11 /* Menu.png */; };
+		DE9F60311AACDD9A0020DC11 /* MenuData.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F602D1AACDD9A0020DC11 /* MenuData.m */; };
+		DE9F603A1AACE8FD0020DC11 /* LawData.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60391AACE8FD0020DC11 /* LawData.m */; };
+		DE9F603D1AACE9760020DC11 /* SectionsListTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F603C1AACE9760020DC11 /* SectionsListTableVC.m */; };
+		DE9F60431AACEA060020DC11 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60421AACEA060020DC11 /* Section.m */; };
+		DE9F60461AACEE850020DC11 /* SectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60451AACEE850020DC11 /* SectionViewCell.m */; };
+		DE9F60491AACEFA70020DC11 /* SectionDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9F60481AACEFA70020DC11 /* SectionDetailsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +49,44 @@
 		DE9F5FEB1AACDCD80020DC11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE9F5FEC1AACDCD80020DC11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DE9F5FEF1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrafficLawsKazakhstan.xcdatamodel; sourceTree = "<group>"; };
-		DE9F5FF11AACDCD80020DC11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DE9F5FF21AACDCD90020DC11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE9F5FF51AACDCD90020DC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE9F5FF71AACDCD90020DC11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DE9F5FFA1AACDCD90020DC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DE9F60001AACDCD90020DC11 /* TrafficLawsKazakhstanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLawsKazakhstanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9F60051AACDCD90020DC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE9F60061AACDCD90020DC11 /* TrafficLawsKazakhstanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficLawsKazakhstanTests.m; sourceTree = "<group>"; };
+		DE9F60111AACDD550020DC11 /* AMSlideMenuContentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuContentSegue.h; sourceTree = "<group>"; };
+		DE9F60121AACDD550020DC11 /* AMSlideMenuContentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuContentSegue.m; sourceTree = "<group>"; };
+		DE9F60131AACDD550020DC11 /* AMSlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
+		DE9F60141AACDD550020DC11 /* AMSlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
+		DE9F60151AACDD550020DC11 /* AMSlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
+		DE9F60161AACDD550020DC11 /* AMSlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
+		DE9F60171AACDD550020DC11 /* AMSlideMenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuMainViewController.h; sourceTree = "<group>"; };
+		DE9F60181AACDD550020DC11 /* AMSlideMenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuMainViewController.m; sourceTree = "<group>"; };
+		DE9F60191AACDD550020DC11 /* AMSlideMenuProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuProtocols.h; sourceTree = "<group>"; };
+		DE9F601A1AACDD550020DC11 /* AMSlideMenuRightMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuRightMenuSegue.h; sourceTree = "<group>"; };
+		DE9F601B1AACDD550020DC11 /* AMSlideMenuRightMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuRightMenuSegue.m; sourceTree = "<group>"; };
+		DE9F601C1AACDD550020DC11 /* AMSlideMenuRightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuRightTableViewController.h; sourceTree = "<group>"; };
+		DE9F601D1AACDD550020DC11 /* AMSlideMenuRightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuRightTableViewController.m; sourceTree = "<group>"; };
+		DE9F601E1AACDD550020DC11 /* UIViewController+AMSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMSlideMenu.h"; sourceTree = "<group>"; };
+		DE9F601F1AACDD550020DC11 /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
+		DE9F60271AACDD9A0020DC11 /* LeftTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableVC.h; sourceTree = "<group>"; };
+		DE9F60281AACDD9A0020DC11 /* LeftTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableVC.m; sourceTree = "<group>"; };
+		DE9F60291AACDD9A0020DC11 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		DE9F602A1AACDD9A0020DC11 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		DE9F602B1AACDD9A0020DC11 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
+		DE9F602C1AACDD9A0020DC11 /* MenuData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuData.h; sourceTree = "<group>"; };
+		DE9F602D1AACDD9A0020DC11 /* MenuData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuData.m; sourceTree = "<group>"; };
+		DE9F60381AACE8FD0020DC11 /* LawData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LawData.h; sourceTree = "<group>"; };
+		DE9F60391AACE8FD0020DC11 /* LawData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LawData.m; sourceTree = "<group>"; };
+		DE9F603B1AACE9760020DC11 /* SectionsListTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionsListTableVC.h; sourceTree = "<group>"; };
+		DE9F603C1AACE9760020DC11 /* SectionsListTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionsListTableVC.m; sourceTree = "<group>"; };
+		DE9F60411AACEA060020DC11 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		DE9F60421AACEA060020DC11 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		DE9F60441AACEE850020DC11 /* SectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionViewCell.h; sourceTree = "<group>"; };
+		DE9F60451AACEE850020DC11 /* SectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionViewCell.m; sourceTree = "<group>"; };
+		DE9F60471AACEFA70020DC11 /* SectionDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionDetailsVC.h; sourceTree = "<group>"; };
+		DE9F60481AACEFA70020DC11 /* SectionDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionDetailsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +128,12 @@
 		DE9F5FE61AACDCD80020DC11 /* TrafficLawsKazakhstan */ = {
 			isa = PBXGroup;
 			children = (
+				DE9F60101AACDD550020DC11 /* AMSlideMenu */,
+				DE9F60321AACDDB00020DC11 /* SlideMenue */,
 				DE9F5FEB1AACDCD80020DC11 /* AppDelegate.h */,
 				DE9F5FEC1AACDCD80020DC11 /* AppDelegate.m */,
-				DE9F5FF11AACDCD80020DC11 /* ViewController.h */,
-				DE9F5FF21AACDCD90020DC11 /* ViewController.m */,
-				DE9F5FF41AACDCD90020DC11 /* Main.storyboard */,
-				DE9F5FF71AACDCD90020DC11 /* Images.xcassets */,
-				DE9F5FF91AACDCD90020DC11 /* LaunchScreen.xib */,
+				DE9F60331AACE0E90020DC11 /* GUI */,
+				DE9F60371AACE13B0020DC11 /* Laws */,
 				DE9F5FEE1AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld */,
 				DE9F5FE71AACDCD80020DC11 /* Supporting Files */,
 			);
@@ -99,6 +143,7 @@
 		DE9F5FE71AACDCD80020DC11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE9F602B1AACDD9A0020DC11 /* Menu.png */,
 				DE9F5FE81AACDCD80020DC11 /* Info.plist */,
 				DE9F5FE91AACDCD80020DC11 /* main.m */,
 			);
@@ -120,6 +165,68 @@
 				DE9F60051AACDCD90020DC11 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE9F60101AACDD550020DC11 /* AMSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F60111AACDD550020DC11 /* AMSlideMenuContentSegue.h */,
+				DE9F60121AACDD550020DC11 /* AMSlideMenuContentSegue.m */,
+				DE9F60131AACDD550020DC11 /* AMSlideMenuLeftMenuSegue.h */,
+				DE9F60141AACDD550020DC11 /* AMSlideMenuLeftMenuSegue.m */,
+				DE9F60151AACDD550020DC11 /* AMSlideMenuLeftTableViewController.h */,
+				DE9F60161AACDD550020DC11 /* AMSlideMenuLeftTableViewController.m */,
+				DE9F60171AACDD550020DC11 /* AMSlideMenuMainViewController.h */,
+				DE9F60181AACDD550020DC11 /* AMSlideMenuMainViewController.m */,
+				DE9F60191AACDD550020DC11 /* AMSlideMenuProtocols.h */,
+				DE9F601A1AACDD550020DC11 /* AMSlideMenuRightMenuSegue.h */,
+				DE9F601B1AACDD550020DC11 /* AMSlideMenuRightMenuSegue.m */,
+				DE9F601C1AACDD550020DC11 /* AMSlideMenuRightTableViewController.h */,
+				DE9F601D1AACDD550020DC11 /* AMSlideMenuRightTableViewController.m */,
+				DE9F601E1AACDD550020DC11 /* UIViewController+AMSlideMenu.h */,
+				DE9F601F1AACDD550020DC11 /* UIViewController+AMSlideMenu.m */,
+			);
+			path = AMSlideMenu;
+			sourceTree = "<group>";
+		};
+		DE9F60321AACDDB00020DC11 /* SlideMenue */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F60271AACDD9A0020DC11 /* LeftTableVC.h */,
+				DE9F60281AACDD9A0020DC11 /* LeftTableVC.m */,
+				DE9F60291AACDD9A0020DC11 /* MainVC.h */,
+				DE9F602A1AACDD9A0020DC11 /* MainVC.m */,
+				DE9F602C1AACDD9A0020DC11 /* MenuData.h */,
+				DE9F602D1AACDD9A0020DC11 /* MenuData.m */,
+			);
+			name = SlideMenue;
+			sourceTree = "<group>";
+		};
+		DE9F60331AACE0E90020DC11 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F5FF41AACDCD90020DC11 /* Main.storyboard */,
+				DE9F5FF71AACDCD90020DC11 /* Images.xcassets */,
+				DE9F5FF91AACDCD90020DC11 /* LaunchScreen.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		DE9F60371AACE13B0020DC11 /* Laws */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F60381AACE8FD0020DC11 /* LawData.h */,
+				DE9F60391AACE8FD0020DC11 /* LawData.m */,
+				DE9F60411AACEA060020DC11 /* Section.h */,
+				DE9F60421AACEA060020DC11 /* Section.m */,
+				DE9F60441AACEE850020DC11 /* SectionViewCell.h */,
+				DE9F60451AACEE850020DC11 /* SectionViewCell.m */,
+				DE9F603B1AACE9760020DC11 /* SectionsListTableVC.h */,
+				DE9F603C1AACE9760020DC11 /* SectionsListTableVC.m */,
+				DE9F60471AACEFA70020DC11 /* SectionDetailsVC.h */,
+				DE9F60481AACEFA70020DC11 /* SectionDetailsVC.m */,
+			);
+			name = Laws;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9F60301AACDD9A0020DC11 /* Menu.png in Resources */,
 				DE9F5FF61AACDCD90020DC11 /* Main.storyboard in Resources */,
 				DE9F5FFB1AACDCD90020DC11 /* LaunchScreen.xib in Resources */,
 				DE9F5FF81AACDCD90020DC11 /* Images.xcassets in Resources */,
@@ -222,9 +330,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9F602F1AACDD9A0020DC11 /* MainVC.m in Sources */,
+				DE9F60261AACDD550020DC11 /* UIViewController+AMSlideMenu.m in Sources */,
+				DE9F60241AACDD550020DC11 /* AMSlideMenuRightMenuSegue.m in Sources */,
+				DE9F60201AACDD550020DC11 /* AMSlideMenuContentSegue.m in Sources */,
 				DE9F5FED1AACDCD80020DC11 /* AppDelegate.m in Sources */,
+				DE9F60251AACDD550020DC11 /* AMSlideMenuRightTableViewController.m in Sources */,
+				DE9F60231AACDD550020DC11 /* AMSlideMenuMainViewController.m in Sources */,
 				DE9F5FF01AACDCD80020DC11 /* TrafficLawsKazakhstan.xcdatamodeld in Sources */,
-				DE9F5FF31AACDCD90020DC11 /* ViewController.m in Sources */,
+				DE9F602E1AACDD9A0020DC11 /* LeftTableVC.m in Sources */,
+				DE9F60431AACEA060020DC11 /* Section.m in Sources */,
+				DE9F60221AACDD550020DC11 /* AMSlideMenuLeftTableViewController.m in Sources */,
+				DE9F603A1AACE8FD0020DC11 /* LawData.m in Sources */,
+				DE9F603D1AACE9760020DC11 /* SectionsListTableVC.m in Sources */,
+				DE9F60211AACDD550020DC11 /* AMSlideMenuLeftMenuSegue.m in Sources */,
+				DE9F60311AACDD9A0020DC11 /* MenuData.m in Sources */,
+				DE9F60491AACEFA70020DC11 /* SectionDetailsVC.m in Sources */,
+				DE9F60461AACEE850020DC11 /* SectionViewCell.m in Sources */,
 				DE9F5FEA1AACDCD80020DC11 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

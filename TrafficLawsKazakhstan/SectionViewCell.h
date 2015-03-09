@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SectionViewCell.h
 //  TrafficLawsKazakhstan
 //
 //  Created by Eugene Rozhkov on 08.03.15.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Section.h"
 
-@interface ViewController : UIViewController
+@interface SectionViewCell : UITableViewCell
 
+@property (strong, nonatomic) Section *cellSection;
 
 @end
-
