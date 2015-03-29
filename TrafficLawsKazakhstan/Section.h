@@ -13,7 +13,10 @@
 @property (nonatomic) int number;
 @property (strong, nonatomic) NSString *header;
 @property (strong, nonatomic) NSString *body;
+@property (strong, nonatomic) NSString *foundText;
+@property (nonatomic) NSRange hihglightedText;
 
 -(id) initWithNumber:(int)nimber header:(NSString *)header andBody:(NSString *)body;
+-(id) initWithData:(NSDictionary *)sectionData;
 
 @end

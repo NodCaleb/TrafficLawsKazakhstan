@@ -5,15 +5,16 @@
 //  Created by Eugene Rozhkov on 08.03.15.
 //  Copyright (c) 2015 Nord Point. All rights reserved.
 //
+//  All the defines has been moved to Prefix Header
+//
 
 #import <Foundation/Foundation.h>
-
-#define SECTION_NUMBER @"Number of the section"
-#define SECTION_HEADER @"Header of the section"
-#define SECTION_BODY @"Body of the section"
+#import "Section.h"
 
 @interface LawData : NSObject
 
-+ (NSArray *) getEntireLaw;
++ (NSArray *) getEntireLaw; //Returns NSArray of NSDictionaries
++ (NSArray *) getURLsForSection:(int)sectionNumber;
++ (NSArray *) searchLawForSubstring:(NSString *)searchString; //Returns NSArray of Sections
 
 @end

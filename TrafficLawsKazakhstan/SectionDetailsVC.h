@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Section.h"
 
-@interface SectionDetailsVC : UIViewController
+@interface SectionDetailsVC : UIViewController <UITextViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextView *sectionDetailsTextView;
 @property (strong, nonatomic) Section *currentSection;

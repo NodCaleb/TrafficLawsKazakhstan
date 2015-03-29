@@ -10,8 +10,9 @@
 #import "LawData.h"
 #import "Section.h"
 
-@interface SectionsListTableVC : UITableViewController
+@interface SectionsListTableVC : UITableViewController <UISearchBarDelegate>
 
 @property (strong, nonatomic) NSMutableArray *sections;
+@property (strong, nonatomic) NSArray *foundSections;
 
 @end

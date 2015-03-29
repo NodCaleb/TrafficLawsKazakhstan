@@ -43,4 +43,76 @@
     return [lawSections copy];
 }
 
++ (NSArray *)getAllTheURLs
+{
+    NSMutableArray *allTheURLs = [@[] mutableCopy];
+    
+    [allTheURLs addObject:@{URL_SECTION_NUMBER:@1, URL_VALUE:@"SIGN:5.1", URL_RANGE_START:@821, URL_RANGE_LENGTH:@3}];
+    [allTheURLs addObject:@{URL_SECTION_NUMBER:@1, URL_VALUE:@"SIGN:5.2", URL_RANGE_START:@841, URL_RANGE_LENGTH:@3}];
+    
+    return [allTheURLs copy];
+}
+
++ (NSArray *) getURLsForSection:(int)sectionNumber
+{
+    NSMutableArray *sectionURLs = [@[] mutableCopy];
+    
+    for (NSDictionary *currentURL in [self getAllTheURLs])
+    {
+        if ([currentURL[URL_SECTION_NUMBER] integerValue] == sectionNumber)
+        {
+            [sectionURLs addObject:currentURL];
+        }
+    }
+    
+    return [sectionURLs copy];
+}
+
++ (NSArray *) searchLawForSubstring:(NSString *)searchString
+{
+    NSArray *allTheSections = [self getEntireLaw];
+    
+    NSMutableArray *foundSections = [@[] mutableCopy];
+    
+    for (NSDictionary *sectionData in allTheSections)
+    {
+        NSRange foundRange = [sectionData[SECTION_BODY] rangeOfString:searchString];
+        
+        if (foundRange.length > 0)
+        {
+            Section *foundSection = [[Section alloc] initWithData:sectionData];
+            foundSection.foundText = [self getSearchHelperForStirng:sectionData[SECTION_BODY] withRange:foundRange];
+            foundSection.hihglightedText = foundRange;
+            [foundSections addObject:foundSection];
+        }
+    }
+    
+    return [foundSections copy];
+}
+
+#pragma mark — Helper methods
+
++(NSString *)getSearchHelperForStirng:(NSString *)string withRange:(NSRange)range
+{
+    int boundsIncrement = 10;
+    
+    if (range.location < boundsIncrement) range.location = 0;
+    else
+    {
+        range.location -= boundsIncrement;
+        //Отсчитываем назад до пробела
+        while (![[string substringWithRange:NSMakeRange(range.location, 1)] isEqualToString:@" "] && range.location != 0)
+        {
+            range.location -= 1;
+        }
+        if (range.location !=0 ) range.location += 1;
+    }
+    
+//    if (NSMaxRange(range) + boundsIncrement > [string length]) range.length = [string length] - range.location;
+//    else range.length += boundsIncrement*2;
+    range.length = [string length] - range.location;
+    
+    return [string substringWithRange:range];
+}
+
 @end

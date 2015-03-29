@@ -1,0 +1,33 @@
+//
+//  TrafficLawsPrefixHeader.pch
+//  TrafficLawsKazakhstan
+//
+//  Created by Eugene Rozhkov on 09.03.15.
+//  Copyright (c) 2015 Nord Point. All rights reserved.
+//
+
+
+#ifndef TrafficLawsKazakhstan_TrafficLawsPrefixHeader_pch
+#define TrafficLawsKazakhstan_TrafficLawsPrefixHeader_pch
+
+#define SECTION_NUMBER @"Number of the section"
+#define SECTION_HEADER @"Header of the section"
+#define SECTION_BODY @"Body of the section"
+
+#define SIGN_NUMBER @"Sign number"
+#define SIGN_DESCRIPTION @"Sign description"
+#define SIGN_IMAGE_NAME @"Sign image name"
+#define SIGN_TYPE @"Type of the sign — warning etc."
+
+#define URL_SECTION_NUMBER @"Number of section to place URL"
+#define URL_VALUE @"Where to go"
+#define URL_RANGE_START @"Beginning of URL"
+#define URL_RANGE_LENGTH @"Length of the URL"
+
+#import <UIKit/UIKit.h>
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

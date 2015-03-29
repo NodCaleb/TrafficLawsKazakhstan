@@ -18,6 +18,18 @@
     self.header = header;
     self.body = body;
     
+    
+    return self;
+}
+
+-(id) initWithData:(NSDictionary *)sectionData
+{
+    self = [super init];
+    
+    self.number = [sectionData[SECTION_NUMBER] integerValue];
+    self.header = sectionData[SECTION_HEADER];
+    self.body = sectionData[SECTION_BODY];    
+    
     return self;
 }
 
