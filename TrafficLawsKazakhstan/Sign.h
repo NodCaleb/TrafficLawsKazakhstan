@@ -11,8 +11,10 @@
 @interface Sign : NSObject
 
 @property (strong, nonatomic) NSString *number;
+@property (strong, nonatomic) NSString *title;
 @property (strong, nonatomic) NSString *descriptionText;
 @property (strong, nonatomic) UIImage *image;
+@property (nonatomic) BOOL hasDescription;
 
 -(id) initWithData:(NSDictionary *)signData;
 

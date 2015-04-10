@@ -15,8 +15,11 @@
     self = [super init];
     
     self.number = signData[SIGN_NUMBER];
+    self.title = signData[SIGN_TITLE];
     self.descriptionText = signData[SIGN_DESCRIPTION];
     self.image = [UIImage imageNamed:signData[SIGN_IMAGE_NAME]];
+    if ([signData[SIGN_DESCRIPTION] isEqualToString:@""]) self.hasDescription = NO;
+    else self.hasDescription = YES;
     
     return self;
 }

@@ -19,37 +19,30 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title = self.currentSign.number;
     
+    //Определяем размеры основного вида и плашек сверху и снизу
+    CGRect mainFrame = self.view.frame;
     CGFloat viewTop = self.navigationController.navigationBar.frame.size.height + self.navigationController.navigationBar.frame.origin.y;
+    CGFloat padding = 8.0f;
     
-    CGFloat signImageX = 8.0f;
-    CGFloat signImageY = 8.0f + viewTop;
-    CGRect imageRect = CGRectMake(signImageX,signImageY,self.currentSign.image.size.width,self.currentSign.image.size.height);
-    UIImageView *signImageView = [[UIImageView alloc] initWithFrame:imageRect];
-    [signImageView setImage:self.currentSign.image];
+    //Наименоание знака
+    CGRect textRect = CGRectMake(mainFrame.origin.x + padding, mainFrame.origin.y + padding, mainFrame.size.width - padding * 2, mainFrame.size.height - padding * 2);
+    UITextView *signTitleTextView = [[UITextView alloc] initWithFrame:textRect];
+    NSMutableAttributedString *signTitleString = [[[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@", self.currentSign.number, self.currentSign.title] attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16]}] mutableCopy];
+    [signTitleString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:18] range:NSMakeRange(0, self.currentSign.number.length)];
+    signTitleTextView.attributedText = signTitleString;
+    signTitleTextView.editable = NO;
     
+    //Изображение знака
+    UIImage *signImage = self.currentSign.image;
+    CGRect signImageRect = CGRectMake(textRect.origin.x + textRect.size.width - signImage.size.width - padding, textRect.origin.y, signImage.size.width, signImage.size.height);
+    UIImageView *signImageView = [[UIImageView alloc] initWithFrame:signImageRect];
+    signImageView.image = signImage;
     
-    CGFloat signNumberLabelX = signImageX + imageRect.size.width + 8.0f;
-    CGFloat signNumberLabelY = signImageY;
-    CGFloat signNumberLabelWidth = self.view.frame.size.width - signNumberLabelX - 8.0f;
-    CGFloat signNumberLabelHeight = 21.0f;
-    CGRect signNumberLabelRect = CGRectMake(signNumberLabelX, signNumberLabelY, signNumberLabelWidth, signNumberLabelHeight);
-    UILabel *signNumberLabel = [[UILabel alloc] initWithFrame:signNumberLabelRect];
-    signNumberLabel.text = self.currentSign.number;
-    signNumberLabel.font = [UIFont boldSystemFontOfSize:17.0f];
+    //Область обтекания
+    signTitleTextView.textContainer.exclusionPaths = @[[UIBezierPath bezierPathWithRect:signImageRect]];
     
-    CGFloat signNameLabelX = signImageX + imageRect.size.width + 8.0f;
-    CGFloat signNameLabelY = signImageY + signNumberLabelHeight + 8.0f;
-    CGFloat signNameLabelWidth = self.view.frame.size.width - signNameLabelX - 8.0f;
-    CGFloat signNameLabelHeight = 42.0f;
-    CGRect signNameLabelRect = CGRectMake(signNameLabelX, signNameLabelY, signNameLabelWidth, signNameLabelHeight);
-    UILabel *signNameLabel = [[UILabel alloc] initWithFrame:signNameLabelRect];
-    signNameLabel.text = self.currentSign.descriptionText;
-    signNameLabel.lineBreakMode = NSLineBreakByWordWrapping;
-    signNumberLabel.font = [UIFont boldSystemFontOfSize:17.0f];
-    
-    [self.view addSubview:signImageView];
-    [self.view addSubview:signNumberLabel];
-    [self.view addSubview:signNameLabel];
+    [self.view addSubview:signTitleTextView];
+    [signTitleTextView addSubview:signImageView];
 }
 
 - (void)didReceiveMemoryWarning {

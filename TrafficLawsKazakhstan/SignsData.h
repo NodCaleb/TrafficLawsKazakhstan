@@ -10,7 +10,10 @@
 
 @interface SignsData : NSObject
 
-+ (NSArray *) getWarningSigns;
++ (NSArray *) getSignsTypes;
++ (NSDictionary *) getGroupByCode:(NSString *)groupCode;
++ (NSArray *) getSignsWithType:(NSString *)signType;
 + (NSDictionary *) getSignWithNumber:(NSString *)signNumber;
++ (NSString *) getInfoForSignGroup:(NSString *)groupCode;
 
 @end

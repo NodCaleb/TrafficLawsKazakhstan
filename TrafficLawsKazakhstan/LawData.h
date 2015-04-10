@@ -16,5 +16,6 @@
 + (NSArray *) getEntireLaw; //Returns NSArray of NSDictionaries
 + (NSArray *) getURLsForSection:(int)sectionNumber;
 + (NSArray *) searchLawForSubstring:(NSString *)searchString; //Returns NSArray of Sections
++ (NSDictionary *) getAdmissionRules; //Правила допуска транспортных средств к эксплуатации (идет отдельным разделом)
 
 @end

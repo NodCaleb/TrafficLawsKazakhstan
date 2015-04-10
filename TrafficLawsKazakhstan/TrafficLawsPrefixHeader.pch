@@ -15,14 +15,28 @@
 #define SECTION_BODY @"Body of the section"
 
 #define SIGN_NUMBER @"Sign number"
+#define SIGN_TITLE @"Sign title"
 #define SIGN_DESCRIPTION @"Sign description"
 #define SIGN_IMAGE_NAME @"Sign image name"
 #define SIGN_TYPE @"Type of the sign — warning etc."
+
+#define TYPE_NUMBER @"Sign type number"
+#define TYPE_CODE @"Sign type description"
+#define TYPE_NAME @"Sign type name"
+#define TYPE_IMAGE_NAME @"Type of the sign type."
+
+#define GROUP_INFO_TITLE @"Title of sign group accompanynig information"
+#define GROUP_INFO_TEXT @"Text of sign group accompanynig information"
 
 #define URL_SECTION_NUMBER @"Number of section to place URL"
 #define URL_VALUE @"Where to go"
 #define URL_RANGE_START @"Beginning of URL"
 #define URL_RANGE_LENGTH @"Length of the URL"
+
+#define MARKUP_NUMBER @"MARKUP number"
+#define MARKUP_DESCRIPTION @"MARKUP description"
+#define MARKUP_IMAGE_NAME @"MARKUP image name"
+#define MARKUP_TYPE @"Type of the MARKUP — vertical or horisontal."
 
 #import <UIKit/UIKit.h>
 

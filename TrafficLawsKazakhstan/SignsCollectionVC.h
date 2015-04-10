@@ -12,5 +12,6 @@
 @interface SignsCollectionVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (strong, nonatomic) NSMutableArray *signs;
+@property (strong, nonatomic) NSString *groupCode;
 
 @end

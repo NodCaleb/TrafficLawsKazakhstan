@@ -30,11 +30,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    for (NSDictionary *signDictionary in [SignsData getWarningSigns])
+    for (NSDictionary *signDictionary in [SignsData getSignsWithType:self.groupCode])
     {
         [self.signs addObject:[[Sign alloc] initWithData:signDictionary]];
     }
     
+    self.navigationItem.title = [[SignsData getGroupByCode:self.groupCode] objectForKey:TYPE_NAME];
     
 }
 
