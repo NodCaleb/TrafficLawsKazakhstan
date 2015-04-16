@@ -27,10 +27,11 @@
     //Наименоание знака
     CGRect textRect = CGRectMake(mainFrame.origin.x + padding, mainFrame.origin.y + padding, mainFrame.size.width - padding * 2, mainFrame.size.height - padding * 2);
     UITextView *signTitleTextView = [[UITextView alloc] initWithFrame:textRect];
-    NSMutableAttributedString *signTitleString = [[[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@", self.currentSign.number, self.currentSign.title] attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16]}] mutableCopy];
+    NSMutableAttributedString *signTitleString = [[[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@\n\n%@", self.currentSign.number, self.currentSign.title, self.currentSign.descriptionText] attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16]}] mutableCopy];
     [signTitleString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:18] range:NSMakeRange(0, self.currentSign.number.length)];
     signTitleTextView.attributedText = signTitleString;
     signTitleTextView.editable = NO;
+    //signTitleTextView.backgroundColor = [UIColor blueColor];
     
     //Изображение знака
     UIImage *signImage = self.currentSign.image;

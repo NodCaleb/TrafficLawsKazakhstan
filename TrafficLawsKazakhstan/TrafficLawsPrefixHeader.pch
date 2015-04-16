@@ -37,6 +37,8 @@
 #define MARKUP_DESCRIPTION @"MARKUP description"
 #define MARKUP_IMAGE_NAME @"MARKUP image name"
 #define MARKUP_TYPE @"Type of the MARKUP — vertical or horisontal."
+#define HORISONTAL_MARKUP @"Horisontal"
+#define VERTICAL_MARKUP @"Vertical"
 
 #import <UIKit/UIKit.h>
 
