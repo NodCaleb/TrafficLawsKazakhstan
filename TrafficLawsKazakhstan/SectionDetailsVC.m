@@ -11,6 +11,8 @@
 #import "SignsData.h"
 #import "Sign.h"
 #import "SignDescriptionVC.h"
+#import "Markup.h"
+#import "MarkupData.h"
 
 @interface SectionDetailsVC ()
 
@@ -57,7 +59,31 @@
     
     if ([destinationType isEqualToString:@"SIGN"])
     {
-        [self performSegueWithIdentifier:@"showSignFromSection" sender:destinationValue];
+        NSString *alertTitle = [NSString stringWithFormat:@"Знак %@", destinationValue];
+        Sign *alertSign = [[Sign alloc] initWithData:[SignsData getSignWithNumber:destinationValue]];
+        
+        UIAlertView *signAlert = [[UIAlertView alloc] initWithTitle:alertTitle message:alertSign.title delegate:nil cancelButtonTitle:@"Закрыть" otherButtonTitles:nil];
+        
+        UIImageView *signImageView = [[UIImageView alloc] init];
+        signImageView.contentMode = UIViewContentModeCenter;
+        UIImage *signImage = alertSign.image; //[UIImage imageNamed:@"razmetka_1_8.png"];
+        [signImageView setImage:signImage];
+        [signAlert setValue:signImageView forKey:@"accessoryView"];
+        [signAlert show];
+    }
+    else if ([destinationType isEqualToString:@"MARK"])
+    {
+        NSString *alertTitle = [NSString stringWithFormat:@"Разметка %@", destinationValue];
+        Markup *alertMark = [[Markup alloc] initWithData:[MarkupData getMarkupWithNumber:destinationValue]];
+        
+        UIAlertView *markAlert = [[UIAlertView alloc] initWithTitle:alertTitle message:nil delegate:nil cancelButtonTitle:@"Закрыть" otherButtonTitles:nil];
+        
+        UIImageView *markImageView = [[UIImageView alloc] init];
+        markImageView.contentMode = UIViewContentModeCenter;
+        UIImage *markImage = alertMark.markupImage;
+        [markImageView setImage:markImage];
+        [markAlert setValue:markImageView forKey:@"accessoryView"];
+        [markAlert show];
     }
     
 //    NSLog(@"Method called for URL type: %@ and value:%@", destinationType, destinationValue);
